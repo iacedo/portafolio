@@ -1,7 +1,7 @@
-Tipografía: https://rsms.me/inter/inter.css (Inter)
+Tipografía: https://fonts.google.com/specimen/Manrope?query=manrope#standard-styles
 
 Iconos: https://fonts.google.com/icons
 
 Colores:
- * primario: #161917
- * secundario: #38E925
+ * primario: #FFFFFF
+ * secundario: #000000
