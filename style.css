@@ -17,6 +17,15 @@ picture {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
 body {
   line-height: 1.5;
   min-height: 100vh;
@@ -54,7 +63,7 @@ picture {
   --black: #000000;
   --white: #ffffff;
   /* 2. Tipografía */
-  --font-family: 'Manrope', sans-serif;
+  --font-family: "Manrope", sans-serif;
   --font-size-1: 1rem;
   --font-size-2: 1.1rem;
   --font-size-3: 1.25rem;
@@ -74,4 +83,21 @@ body {
   font-family: var(--font-family);
   background-color: var(--white);
   color: var(--black);
+}
+
+/* Home */
+.home {
+  display: flex;
+}
+/* Titulo */
+.titulo {
+  font-size: 22px;
+}
+/* Portafolio */
+.portafolio {
+  flex: 1;
+  text-align: center;
+}
+/* Menu */
+.menu {
 }
