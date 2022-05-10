@@ -123,3 +123,25 @@ body {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
+
+/* Proyectos */
+.proyecto .home {
+  height: 100vh;
+  background: rgb(188, 188, 188);
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto 1fr;
+}
+
+/* Descripcion */
+.proyecto .descripcion {
+  background-color: rgb(42, 91, 165);
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+/* Imagen */
+.proyecto .imagen {
+  background-color: rgb(165, 42, 134);
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
