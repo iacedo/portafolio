@@ -1,2 +1,0 @@
-Inspiración de layout:
-
