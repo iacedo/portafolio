@@ -46,6 +46,11 @@ picture {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (prefers-reduced-motion: reduce) {
 
   *,
@@ -119,6 +124,43 @@ body {
   background-color: rgb(255, 255, 255);
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+}
+
+.categorias-home {
+  background-color: rgb(255, 255, 255);
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+/* .categorias-home li:nth-child(1) a+a {
+  display: none;
+} */
+.categorias-home li {
+  padding: 20px;
+}
+
+.categorias-home li+li {
+  padding-top: 20px;
+}
+
+.categorias-home li:nth-child(1) a:active+a {
+  display: block;
+}
+
+.categorias-home li:nth-child(2) a {}
+
+.categorias-home li::nth-child(3)a {}
+
+.categorias-home .sub-foto {
+  background-color: blue;
+}
+
+.categorias-home .sub-editorial {
+  background-color: red;
+}
+
+.categorias-home .sub-branding {
+  background-color: green;
 }
 
 /* Proyectos */
