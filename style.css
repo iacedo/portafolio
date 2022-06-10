@@ -118,6 +118,79 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+/*Fotos retícula*/
+.wrapfoto{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  max-height: 200px;
+
+}
+.wrapper {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: rgb(255, 10, 10);
+  max-height:200px;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: rgb(18, 194, 6);
+  max-height: 200px;
+}
+.three {
+  grid-column: 3/4;
+  grid-row: 1 / 2;
+  background-color: rgb(0, 251, 255);
+  max-height: 200px;
+}
+.four {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: rgb(246, 255, 0);
+  max-height: 200px;
+}
+.five {
+  grid-column: 2 /3;
+  grid-row: 2 /3;
+  background-color: rgb(255, 0, 242);
+  max-height: 200px;
+}
+.six {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: rgb(21, 0, 255);
+  max-height: 200px;
+}
+
+.seven {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: rgb(21, 0, 255);
+  max-height: 200px;
+}
+
+.eight {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: rgb(255, 119, 0);
+  max-height: 200px;
+}
+
+.nine {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: rgb(21, 0, 255);
+  max-height: 200px;
+}
+.
 
 /* Categorias */
 .categorias {
@@ -151,17 +224,7 @@ body {
 
 .categorias-home li::nth-child(3)a {}
 
-.categorias-home .sub-foto {
-  background-color: blue;
-}
 
-.categorias-home .sub-editorial {
-  background-color: red;
-}
-
-.categorias-home .sub-branding {
-  background-color: green;
-}
 
 /* Proyectos */
 .proyectos {
@@ -169,7 +232,6 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
-
 
 
 /* Imagen */
@@ -226,5 +288,3 @@ body {
   height: 315px;
   /* border: 2px solid; */
 }
-
-/* Slider */
